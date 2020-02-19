@@ -8,17 +8,17 @@ public class ZoomFunction : MonoBehaviour
 
     void Start()
     {
-       
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+
     }
 
-    void Scrollbar.OnDrag()
+    public void ZoomOnScroll(float value)
     {
-
+        Debug.Log(value);
     }
 }
