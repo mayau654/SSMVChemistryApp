@@ -16,30 +16,18 @@ public class ZoomFunction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // movement code off of internet
+
     }
 
 
 
     public void ZoomOnScroll(float value)
     {
+        //prints value of scrollbar
         Debug.Log(value);
-        if (value < OldValue)
-        {
-            transform.position += Vector3.back * speed * Time.deltaTime;
-        }
-        if (value > OldValue)
-        {
-            transform.position += Vector3.forward * speed * Time.deltaTime;
-        }
-        if (value == 0.0f)
-        {
-            transform.position = new Vector3(0, 1, -10);
-        }
-        if (value == 1.0f)
-        {
-            transform.position = new Vector3(0, 1, -5);
-        }
+        //zooms in/out
+        float v = (value * 5);
+        transform.position = new Vector3(0, 1, -10 + v);
         OldValue = value;
     }
 
