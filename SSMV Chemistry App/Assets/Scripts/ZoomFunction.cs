@@ -6,7 +6,6 @@ public class ZoomFunction : MonoBehaviour
 {
     // Start is called before the first frame update
     public float speed = 2f;
-    float OldValue = 0.0f;
 
     void Start()
     {
@@ -28,7 +27,6 @@ public class ZoomFunction : MonoBehaviour
         //zooms in/out
         float v = (value * 5);
         transform.position = new Vector3(0, 1, -10 + v);
-        OldValue = value;
     }
 
 }
