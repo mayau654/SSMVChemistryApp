@@ -22,4 +22,10 @@ public class MenuToScenes : MonoBehaviour
     {
         SceneManager.LoadScene("Gallery");
     }
+
+    // reloads interface when "Load" button is hit
+    public void Load2D()
+    {
+        SceneManager.LoadScene("2D Interface");
+    }
 }
