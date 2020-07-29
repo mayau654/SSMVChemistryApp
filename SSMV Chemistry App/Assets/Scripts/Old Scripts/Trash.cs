@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Trash : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider other) //destroys atoms that touch the flame (aka trash) icon
+    private void OnTriggerEnter(Collider other) //when something touches the object
     {
         if (other.gameObject.CompareTag("Atom")) //if other gameobject with the tag "Atom" touches the object
         {
