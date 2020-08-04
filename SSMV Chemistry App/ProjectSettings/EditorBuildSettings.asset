@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Frank Interface gottem.unity
+    path: Assets/Scenes/Old Scenes/Frank Interface gottem.unity
     guid: 92c77fb18a2055349af26ec99ee7301e
   - enabled: 1
-    path: Assets/Scenes/2D Interface.unity
+    path: Assets/Scenes/Old Scenes/2D Interface.unity
     guid: 6549fb1ecdc03fe4bb7f945687ed2ead
   - enabled: 1
-    path: Assets/Scenes/Gallery.unity
+    path: Assets/Scenes/Old Scenes/Gallery.unity
     guid: c565750d207bbee4b8f55b75bb044d1e
   m_configObjects: {}
