@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Old Scenes/Frank Interface gottem.unity
     guid: 92c77fb18a2055349af26ec99ee7301e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Old Scenes/2D Interface.unity
     guid: 6549fb1ecdc03fe4bb7f945687ed2ead
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Old Scenes/Gallery.unity
     guid: c565750d207bbee4b8f55b75bb044d1e
+  - enabled: 1
+    path: Assets/Scenes/Version 1.unity
+    guid: 79b33828c5c3bb84dbc98bf0c22bbc9a
   m_configObjects: {}
